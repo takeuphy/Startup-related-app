@@ -57,10 +57,30 @@
       <label for="categoryFilter">カテゴリ:</label>
       <select id="categoryFilter">
         <option value="">すべて</option>
-        <option value="law-firm">法律事務所</option>
-        <option value="legal-news">法律ニュース</option>
-        <option value="startup-resource">スタートアップリソース</option>
-        <option value="startup-legal">スタートアップ法務</option>
+        <optgroup label="政府・規制">
+          <option value="government-legislation">法令・規則・パブリックコメント</option>
+          <option value="securities-finance">会社・資金調達・証券規制</option>
+          <option value="tax-accounting">税務・会計</option>
+          <option value="labor-employment">労務・雇用</option>
+          <option value="privacy-cyber">プライバシー・サイバー</option>
+          <option value="immigration">移民・グローバル人材</option>
+          <option value="sanctions-export">制裁・輸出管理</option>
+          <option value="fintech-regulation">FinTech規制</option>
+        </optgroup>
+        <optgroup label="法務・判例">
+          <option value="corporate-litigation">会社法・判例</option>
+          <option value="ip-standards">知的財産・標準</option>
+          <option value="law-firm">法律事務所</option>
+        </optgroup>
+        <optgroup label="スタートアップ・VC">
+          <option value="vc-startup-docs">VC・スタートアップ標準ドキュメント</option>
+          <option value="startup-legal">スタートアップ法務</option>
+          <option value="startup-resource">スタートアップリソース</option>
+        </optgroup>
+        <optgroup label="ニュース・調査">
+          <option value="legal-news">法律ニュース</option>
+          <option value="research-data">データベース・調査</option>
+        </optgroup>
       </select>
     </section>
 

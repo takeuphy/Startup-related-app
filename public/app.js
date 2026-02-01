@@ -32,10 +32,22 @@ const elements = {
 
 // カテゴリ名のマッピング
 const categoryNames = {
-  'law-firm': '法律事務所',
+  'government-legislation': '法令・規則・パブリックコメント',
+  'securities-finance': '会社・資金調達・証券規制',
+  'tax-accounting': '税務・会計',
+  'ip-standards': '知的財産・標準',
+  'labor-employment': '労務・雇用',
+  'privacy-cyber': 'プライバシー・サイバー',
+  'immigration': '移民・グローバル人材',
+  'sanctions-export': '制裁・輸出管理',
+  'corporate-litigation': '会社法・判例',
+  'vc-startup-docs': 'VC・スタートアップ標準ドキュメント',
   'legal-news': '法律ニュース',
-  'startup-resource': 'スタートアップリソース',
+  'research-data': 'データベース・調査',
   'startup-legal': 'スタートアップ法務',
+  'startup-resource': 'スタートアップリソース',
+  'fintech-regulation': 'FinTech規制',
+  'law-firm': '法律事務所',
 };
 
 // ユーティリティ関数
