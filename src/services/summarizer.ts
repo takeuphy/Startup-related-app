@@ -134,8 +134,8 @@ async function summarizeWithGemini(
   legalTopics: string[];
 }> {
   const client = getGeminiClient();
-  // gemini-pro は安定版モデル
-  const model = client.getGenerativeModel({ model: 'gemini-pro' });
+  // gemini-1.5-flash-latest を使用
+  const model = client.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
 
   const prompt = `${SYSTEM_PROMPT}
 
